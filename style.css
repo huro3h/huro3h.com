@@ -26,6 +26,19 @@ p.base_color {
   color: #666;
 }
 
+a.non_decoration {
+  text-decoration: none;
+  color: #999;
+  -webkit-transition: all 0.35s ease;
+  -moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all  0.35s ease;
+}
+
+.non_decoration:hover {
+  color: #28A745;
+}
+
 .twitter_icon {
   color: #999;
   -webkit-transition: all 0.35s ease;
@@ -48,6 +61,12 @@ p.base_color {
 
 .github_icon:hover {
   color: #333;
+}
+
+span.running_text {
+  font-weight: 300;
+  font-size: 12px;
+  font-family: monospace;
 }
 
 .footer {
