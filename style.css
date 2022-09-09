@@ -27,8 +27,7 @@ p.base_color {
   color: #666;
 }
 
-a.non_decoration {
-  text-decoration: none;
+.github_icon {
   color: #999;
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
@@ -36,8 +35,8 @@ a.non_decoration {
   transition: all  0.35s ease;
 }
 
-.non_decoration:hover {
-  color: #28A745;
+.github_icon:hover {
+  color: #333;
 }
 
 .twitter_icon {
@@ -52,7 +51,7 @@ a.non_decoration {
   color: #55acee;
 }
 
-.github_icon {
+.running_icon {
   color: #999;
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
@@ -60,14 +59,8 @@ a.non_decoration {
   transition: all  0.35s ease;
 }
 
-.github_icon:hover {
-  color: #333;
-}
-
-span.running_text {
-  font-weight: 300;
-  font-size: 12px;
-  font-family: monospace;
+.running_icon:hover {
+  color: #28A745;
 }
 
 .footer {
