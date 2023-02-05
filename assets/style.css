@@ -4,7 +4,7 @@ html, body {
   background-color: whitesmoke;
 }
 
-.container {
+div.main_contents {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,16 +23,17 @@ h1 {
   color: #666;
 }
 
-p.base_color {
-  color: #666;
-}
-
-a.nostr_color {
+small {
   font-weight: 200;
   color: #666;
 }
 
-a.nostr_color:hover {
+
+a.nostr_link {
+  color: #666;
+}
+
+a.nostr_link:hover {
   color: #8b5cf6;
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
@@ -77,9 +78,8 @@ a.nostr_color:hover {
 }
 
 .footer {
-  text-align: center;
-  position: fixed;
+  display: flex;
+  justify-content: center;
   font-weight: 200;
   width: 100%;
-  color: #666;
 }
