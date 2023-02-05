@@ -27,12 +27,12 @@ p.base_color {
   color: #666;
 }
 
-a.damus_color {
+a.nostr_color {
   font-weight: 200;
   color: #666;
 }
 
-a.damus_color:hover {
+a.nostr_color:hover {
   color: #8b5cf6;
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
