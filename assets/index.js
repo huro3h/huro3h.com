@@ -13,3 +13,10 @@ const options = {
 }
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
+
+// clipboard.js
+const clipboard = new ClipboardJS('.nostr_pub_key');
+
+clipboard.on('success', function(e) {
+  e.clearSelection();
+});
