@@ -28,6 +28,7 @@ p.base_color {
 }
 
 a.damus_color {
+  font-weight: 200;
   color: #666;
 }
 
@@ -78,6 +79,7 @@ a.damus_color:hover {
 .footer {
   text-align: center;
   position: fixed;
+  font-weight: 200;
   width: 100%;
-  color: #DDD;
+  color: #666;
 }
