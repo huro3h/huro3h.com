@@ -90,22 +90,6 @@ twq('track', 'PageView');
         integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
         crossorigin="anonymous"></script>
 
-<script>
-  const currentFullDate = new Date();
-  const currentYear = currentFullDate.getFullYear();
-  const year = new Vue({
-    el: '#year',
-    data: {
-      message: currentYear,
-    }
-  })
-
-  // Darkmode.js
-  const options = {
-    label: '&#x1F313;'
-  }
-  const darkmode = new Darkmode(options);
-  darkmode.showWidget();
-</script>
+<script src="assets/index.js"></script>
 </body>
 </html>
