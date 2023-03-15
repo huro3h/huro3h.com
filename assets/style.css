@@ -28,39 +28,6 @@ small {
   color: #666;
 }
 
-
-a.nostr_link {
-  color: #666;
-}
-
-a.nostr_link:hover {
-  color: #8b5cf6;
-  -webkit-transition: all 0.35s ease;
-  -moz-transition: all 0.35s ease;
-  -o-transition: all 0.35s ease;
-  transition: all  0.35s ease;
-}
-
-span.nostr_pub_key {
-  font-size: 10px;
-}
-
-span.nostr_pub_key:hover {
-  color: #8b5cf6;
-  -webkit-transition: all 0.35s ease;
-  -moz-transition: all 0.35s ease;
-  -o-transition: all 0.35s ease;
-  transition: all  0.35s ease;
-}
-
-i.nostr_pub_key:hover {
-  color: #8b5cf6;
-  -webkit-transition: all 0.35s ease;
-  -moz-transition: all 0.35s ease;
-  -o-transition: all 0.35s ease;
-  transition: all  0.35s ease;
-}
-
 .github_icon {
   color: #999;
   -webkit-transition: all 0.35s ease;
