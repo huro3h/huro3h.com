@@ -40,30 +40,6 @@ small {
   color: #333;
 }
 
-.twitter_icon {
-  color: #999;
-  -webkit-transition: all 0.35s ease;
-  -moz-transition: all 0.35s ease;
-  -o-transition: all 0.35s ease;
-  transition: all  0.35s ease;
-}
-
-.twitter_icon:hover {
-  color: #55acee;
-}
-
-.running_icon {
-  color: #999;
-  -webkit-transition: all 0.35s ease;
-  -moz-transition: all 0.35s ease;
-  -o-transition: all 0.35s ease;
-  transition: all  0.35s ease;
-}
-
-.running_icon:hover {
-  color: #28A745;
-}
-
 .footer {
   display: flex;
   justify-content: center;
