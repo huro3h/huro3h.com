@@ -1,11 +1,11 @@
-const currentFullDate = new Date();
-const currentYear = currentFullDate.getFullYear();
-const year = new Vue({
-  el: '#year',
-  data: {
-    message: currentYear,
-  }
-})
+// const currentFullDate = new Date();
+// const currentYear = currentFullDate.getFullYear();
+// const year = new Vue({
+//   el: '#year',
+//   data: {
+//     message: currentYear,
+//   }
+// })
 
 // Darkmode.js
 const options = {
@@ -13,10 +13,3 @@ const options = {
 }
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
-
-// clipboard.js
-const clipboard = new ClipboardJS('.nostr_pub_key');
-
-clipboard.on('success', function(e) {
-  e.clearSelection();
-});
