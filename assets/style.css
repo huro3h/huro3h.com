@@ -28,7 +28,7 @@ small {
   color: #666;
 }
 
-.github_icon {
+.mono_icon {
   color: #999;
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
@@ -36,7 +36,7 @@ small {
   transition: all  0.35s ease;
 }
 
-.github_icon:hover {
+.mono_icon:hover {
   color: #333;
 }
 
