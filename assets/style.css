@@ -17,7 +17,7 @@ div.main_contents {
   display: block;
 }
 
-h1 {
+h1, .link_label {
   font-size: 14px;
   font-weight: 200;
   color: #666;
